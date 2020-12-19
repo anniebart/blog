@@ -75,5 +75,3 @@ weight = 4
     name = "instagram"
     link = "https://instagram.com/anniefitzbart"
 
-[params]
-  rss = true
