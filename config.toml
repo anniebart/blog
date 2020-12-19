@@ -74,3 +74,6 @@ weight = 4
  [[params.social]]
     name = "instagram"
     link = "https://instagram.com/anniefitzbart"
+
+[params]
+  rss = true
