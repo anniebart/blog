@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://serene-nobel-35121d.netlify.app/"
 languageCode = "en-us"
 title = "adventures in creative coding"
 theme = "cactus"
@@ -66,7 +66,7 @@ weight = 4
     name = "github"
     link = "https://github.com/anniebart"
   [[params.social]]
-    name = "portfolio"
+    name = "website"
     link = "https://www.anniebartholomew.com"
   [[params.social]]
     name = "email"
