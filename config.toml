@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "adventures in creative coding"
 theme = "cactus"
 
 
@@ -23,3 +23,6 @@ weight = 3
 name = "About"
 url = "/about"
 weight = 4
+
+[params]
+  rss = true
