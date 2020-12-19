@@ -46,7 +46,7 @@ I am so happy and thankful to have the opportunity to be part of a community of 
     * Generative art sketches
     * [CampList](https://github.com/anniebart/campList)
     * [TestMe (node based testing framework)](https://github.com/anniebart/testMe)
-    * This blog! (Used [Hexo](https://hexo.io/) static blog generator)
+    * [This](https://anniebartblog.netlify.app/) blog! (Used [Hugo](https://gohugo.io/) static blog generator)
 * Research 
     * Creative coding + design: 
         * https://passwords.ai/
