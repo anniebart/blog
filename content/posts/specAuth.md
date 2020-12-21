@@ -1,7 +1,7 @@
 ---
 title: Speculative Authentication
-date: 2020-12-19 10:00:30
-draft: true
+date: 2020-12-18 19:00:30
+draft: false
 ---
 
 (or how to make pixel art your password)
@@ -13,23 +13,23 @@ Speculative Authentication is essentially reimagining the way we authenticate us
 ### How I became interested
 A few weeks ago, I came across a [website](https://passwords.ai/) that documented a three-day meeting of a group of artists, designers and technologists. The purpose of this meeting was to reimagine how machine learning might be able to be used in authentication- but not using traditional methods like biometric data. 
 
-<img src="https://passwords.ai/img/united.jpg" height="300px">
+![passwords.ai](https://passwords.ai/img/united.jpg)
 
 What they came up with was a bunch of quirky methods, one using collaboration as the key to unlock a message, while others used body movements and images to implement their own authentications. 
 
-<img src="https://passwords.ai/img/uniuni.gif" height="300px">
+![passwords.ai](https://passwords.ai/img/uniuni.gif)
 <br> <br>
 As a somewhat newer programmer, I was hesistant to delve into machine learning yet, but I was curious about how I might go about implementing my own alternative method for authentication. What would that look like? How could I avoid using machine learning in doing so? What would the user inputs be? How could that be secured? <br> <br>
 
 
-<img src="https://camo.githubusercontent.com/46537f33c0c5db8403aa04545249a218cb908c6a106070b63ca6cdef6a10c5b1/68747470733a2f2f7777772e616e6e696562617274686f6c6f6d65772e636f6d2f73637265656e2d73686f742d323032302d31322d31312d61742d312e34322e31302d706d2e706e67" height="300px">
+![pixel art](https://camo.githubusercontent.com/46537f33c0c5db8403aa04545249a218cb908c6a106070b63ca6cdef6a10c5b1/68747470733a2f2f7777772e616e6e696562617274686f6c6f6d65772e636f6d2f73637265656e2d73686f742d323032302d31322d31312d61742d312e34322e31302d706d2e706e67)
 
 ### Enter Pixel Art
 The first question I had after I decided to use pixel art as my method, is how can you translate the location of a pixel, it’s color, to something that can be saved, verified, and used to authenticate. 
 
 Well, convert it to a string of course. 
 
-<img src="https://www.anniebartholomew.com/screen-shot-2020-12-17-at-12.46.05-pm.png" height ="300px">
+![pixel art input](https://www.anniebartholomew.com/screen-shot-2020-12-17-at-12.46.05-pm.png)
 
 Each pixel is an input that has a corresponding value. The value of the input is added onto an array that store the order of the input sequence and once the user is ready to sign up, the array is concatenated to create the password string. 
 
@@ -43,7 +43,7 @@ When the user login, a similar process ensues. The user inputs their sequence of
 
 I'm not claiming this authentication method is the most airtight, secure thing ever to hit the tech world. But it has been an interesting way to examine whether we can approach authentication a little differently. After all, CAPTCHA, face recognition + two-factor were new once too!
 
-## Now what?
+### Now what?
 That's a good question. I'm hoping to use the pixel art authentication method on some smaller projects in the future. Perhaps do a little more work on the security side. 
 
 I'm also curious to experiment with further alternatives to authentication - what other methods can I try? How else can we reimagine what a password is?
