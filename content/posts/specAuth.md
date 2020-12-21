@@ -1,6 +1,6 @@
 ---
 title: Speculative Authentication
-date: 2020-12-18 19:00:30
+date: 2020-12-21 10:00:30
 draft: false
 ---
 
