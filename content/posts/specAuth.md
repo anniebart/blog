@@ -2,6 +2,10 @@
 title: Speculative Authentication
 date: 2020-12-21 10:00:30
 draft: false
+tags: 
+- speculative design
+- authentication
+- Recurse Center
 ---
 
 (or how to make pixel art your password)

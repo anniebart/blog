@@ -1,6 +1,6 @@
 baseURL = "https://anniebartblog.netlify.app/"
 languageCode = "en-us"
-title = "adventures in creative coding"
+title = "annie b"
 theme = "cactus"
 copyright = "Annie Bartholomew" # cactus will use title if copyright is not set
 
@@ -42,7 +42,7 @@ weight = 4
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
 
   # Home page settings
-  description = "A blog about coding + creativity"
+  description = "a blog about making things + programming + other thoughts"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

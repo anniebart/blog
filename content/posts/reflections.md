@@ -2,6 +2,8 @@
 title: RC Reflections
 date: 2020-12-18 15:45:32
 draft: false
+tags: 
+- Recurse Center
 ---
 Wow, it's hard to believe that my time at [Recurse Center](https://www.recurse.com/) has come to an end (for now). Recurse Center is a self-directed educational retreat for programmers, normally based in NYC, but currently being run remotely. 
 
